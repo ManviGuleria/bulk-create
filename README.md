@@ -48,7 +48,7 @@ assignment_bulk_creator/
 
 ### Prerequisites
 
-- Python 3.11+
+- Python 3.9+
 - `pip`
 
 ### Install dependencies
@@ -92,7 +92,7 @@ Interactive API docs are available at:
 ## Running Tests
 
 ```bash
-pytest tests/ -v
+python -m pytest tests/ -v
 ```
 
 The test suite uses a file-based SQLite database (`test_certificates.db`) that is created and torn down automatically.
