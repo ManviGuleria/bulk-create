@@ -27,8 +27,6 @@ task with no changes – just swap the ``BackgroundTasks`` call site.
 from __future__ import annotations
 
 import logging
-import os
-import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 

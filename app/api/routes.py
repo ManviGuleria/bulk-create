@@ -12,7 +12,6 @@ GET    /certificates/{certificate_id}/download – Stream the generated PDF.
 
 from __future__ import annotations
 
-import os
 from pathlib import Path
 from typing import List
 
